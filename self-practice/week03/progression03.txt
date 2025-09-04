@@ -1,0 +1,20 @@
+WEEK03 - Function
+โจทย์ : 
+// Anagram Checker
+// เขียนฟังก์ชัน areAnagrams(str1, str2) ที่ตรวจสอบว่าสองคำเป็น anagram หรือไม่
+// (Anagram = การสลับตัวอักษร เช่น "listen" กับ "silent")
+
+
+function areAnagrams(str1, str2) {
+    // สร้างตัวแปร format เป็น arrow function สำหรับทำความสะอาดและจัดรูปแบบ string
+    // - เปลี่ยนตัวอักษรทั้งหมดเป็นตัวเล็ก
+    // - แยก string ออกเป็น array ของตัวอักษร
+    // - เรียงตัวอักษรใหม่ (sort)
+    // - เอามาต่อกลับเป็น string
+    const format = (str => str.toLowerCase().split('').sort().join(''))
+
+    // เปรียบเทียบ string ที่ถูกจัดรูปแบบแล้วทั้งสองตัว
+    // ถ้าเหมือนกัน -> เป็น anagram
+    // ถ้าไม่เหมือน -> ไม่ใช่ anagram
+    return format(str1) === format(str2)
+}
