@@ -1,0 +1,7 @@
+Self-Practice : WEEk01 - WEEK05
+
+WEEK01 : ทบทวนการใช้ Array ที่เรียนในห้องโดยฝึกทำโจทย์หลายๆอย่าง
+WEEK02 : ฝึกการใช้ Object โดยเรานำโจทย์จาก Leetcode มาฝึกทำ
+WEEK03 : ฝึกการเขียน Function โดยจะฝึกการเขียนแบบ Arrow Function
+WEEK04 : ฝึกใช้ Array Medthod หลายๆอย่าง เช่น filter map sort
+WEEK05 : ทำโจทย์จากที่อาจารให้มาเพื่อเตรียมตัวสอบ
